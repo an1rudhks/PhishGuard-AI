@@ -10,12 +10,12 @@ with open("models/vectorizer.pkl", "rb") as f:
 
 # Page config
 st.set_page_config(
-    page_title="PhisingGuard-AI",
+    page_title="PhishGuard-AI",
     page_icon="🛡️",
     layout="wide"
 )
 
-st.title("🛡️ PhisingGuard-AI")
+st.title("🛡️ PhishGuard-AI")
 
 st.write(
     "Detect phishing emails using Machine Learning and phishing-pattern analysis."
