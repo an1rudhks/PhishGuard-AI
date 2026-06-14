@@ -50,13 +50,17 @@ Data Source: Ham & Spam Collection Dataset
 phishguard-ai/
 │
 ├── data/
-│   └── spam.csv                 # SMS Spam Collection dataset used for training
+│   └── spam.csv                 # Ham & Spam Collection dataset
+│
+├── reports/
+│   └── term_project2_report.pdf # Project report and documentation
 │
 ├── src/
 │   ├── preprocess.py            # Email text preprocessing and cleaning module
 │   ├── train.py                 # Trains and evaluates the Linear SVM model
 │   └── app.py                   # Streamlit-based phishing detection interface
 │
-├── requirements.txt            # List of Python package dependencies
+├── .gitignore
+├── LICENSE                      # MIT License file
 ├── README.md                   # Project documentation
-└── .gitignore                  
+└── requirements.txt            # List of Python package dependencies                  
