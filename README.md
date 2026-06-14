@@ -1,4 +1,4 @@
-# PhisingGuard-AI
+# PhishGuard-AI
 
 PhishGuard AI is a machine learning-based phishing and spam detection system developed using Python, Natural Language Processing (NLP), and Streamlit. The application analyzes the content of emails or messages and classifies them as either legitimate or phishing/spam.
 
@@ -32,7 +32,7 @@ Libraries: Pandas, NumPy, Scikit-learn, NLTK.
 
 Frontend: Streamlit
 
-Data Source: SMS Spam Collection Dataset
+Data Source: Ham & Spam Collection Dataset
 
 
 # How to Run locally
